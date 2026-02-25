@@ -1,39 +1,38 @@
 {
   "kind": "build_request",
-  "title": "Update company name, phone number, and location across the site",
+  "title": "Update company email to insightresearchblr@gmail.com across all pages and sections",
   "projectName": "Insight Research and Communications",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-8",
-      "text": "Update all instances of the company name to 'Insight Research and Communications', phone number to '+91 9353172674', and location/address to 'Bangalore, India 560001' across every page, section, component, and metadata where company information appears — including the Navigation, Footer, Hero, Contact page, and any other components that display company details.",
+      "id": "REQ-9",
+      "text": "Update the company email address to 'insightresearchblr@gmail.com' everywhere it appears across the site — including the Contact page, Footer, Navigation (if shown), and any other component or metadata that displays contact details. Note: the user typed 'gmal.com' but the correct domain is 'gmail.com' as already recorded in the project state.",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-4"
+          "msg-7"
         ],
         "quotes": [
-          "company name is Insight research and Communications phone number india 9353172674 and location bangalore india 560001"
+          "email id insightresearchblr@gmal.com"
         ]
       },
       "acceptanceCriteria": [
-        "The company name 'Insight Research and Communications' appears in the Navigation/header logo or brand text.",
-        "The company name 'Insight Research and Communications' appears in the Footer.",
-        "The phone number '+91 9353172674' is displayed on the Contact page and in the Footer.",
-        "The address 'Bangalore, India 560001' is displayed on the Contact page and in the Footer.",
-        "No outdated placeholder company name (e.g., 'InsightPro') remains anywhere on the site.",
-        "All other content and styling remain unchanged."
+        "The email 'insightresearchblr@gmail.com' appears in the Footer component wherever contact details are shown.",
+        "The email 'insightresearchblr@gmail.com' appears on the Contact page in the contact info block.",
+        "No outdated or placeholder email address remains anywhere on the site.",
+        "The mailto link (if present) correctly points to insightresearchblr@gmail.com."
       ]
     }
   ],
   "constraints": [
-    "Do not change any backend logic or data schema.",
-    "Do not alter the visual theme, layout, or any content unrelated to company name, phone number, and location."
+    "Use 'insightresearchblr@gmail.com' — the user input contained a typo ('gmal.com') which must be corrected to 'gmail.com'.",
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui/.",
+    "Do not alter any other contact details (phone, address, company name)."
   ],
   "nonGoals": [
-    "Adding new pages or sections.",
-    "Changing any service, research, or methodology content.",
-    "Updating the contact form submission logic."
+    "Changing the phone number or physical address.",
+    "Adding new contact fields or form inputs.",
+    "Backend schema changes."
   ],
   "imageRequirements": {
     "required": [],

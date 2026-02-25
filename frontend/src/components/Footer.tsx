@@ -50,7 +50,12 @@ export default function Footer() {
                         <div className="flex flex-col gap-2 text-sm text-muted-foreground">
                             <div className="flex items-center gap-2">
                                 <Mail className="w-4 h-4 text-gold-600" />
-                                <span>insights@insightrc.com</span>
+                                <a
+                                    href="mailto:insightresearchblr@gmail.com"
+                                    className="hover:text-gold-400 transition-colors"
+                                >
+                                    insightresearchblr@gmail.com
+                                </a>
                             </div>
                             <div className="flex items-center gap-2">
                                 <Phone className="w-4 h-4 text-gold-600" />

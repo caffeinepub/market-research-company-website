@@ -5,25 +5,29 @@ const contactInfo = [
     {
         icon: Mail,
         label: 'Email',
-        value: 'insights@insightrc.com',
+        value: 'insightresearchblr@gmail.com',
+        href: 'mailto:insightresearchblr@gmail.com',
         description: 'Send us your research brief',
     },
     {
         icon: Phone,
         label: 'Phone',
         value: '+91 9353172674',
+        href: null,
         description: 'Mon–Fri, 9am–6pm IST',
     },
     {
         icon: MapPin,
         label: 'Office',
         value: 'Bangalore, India 560001',
+        href: null,
         description: 'Headquarters',
     },
     {
         icon: Clock,
         label: 'Response Time',
         value: '1–2 Business Days',
+        href: null,
         description: 'We respond promptly to all inquiries',
     },
 ];
@@ -58,14 +62,23 @@ export default function Contact() {
                         </div>
 
                         <div className="flex flex-col gap-4">
-                            {contactInfo.map(({ icon: Icon, label, value, description }) => (
+                            {contactInfo.map(({ icon: Icon, label, value, href, description }) => (
                                 <div key={label} className="flex gap-4 p-4 bg-navy-800/50 border border-navy-700/40 rounded-sm">
                                     <div className="w-9 h-9 rounded-sm bg-gold-400/10 border border-gold-700/30 flex items-center justify-center flex-shrink-0">
                                         <Icon className="w-4 h-4 text-gold-400" />
                                     </div>
                                     <div>
                                         <div className="text-xs text-muted-foreground font-body uppercase tracking-wider mb-0.5">{label}</div>
-                                        <div className="text-sm font-body font-medium text-foreground">{value}</div>
+                                        {href ? (
+                                            <a
+                                                href={href}
+                                                className="text-sm font-body font-medium text-foreground hover:text-gold-400 transition-colors"
+                                            >
+                                                {value}
+                                            </a>
+                                        ) : (
+                                            <div className="text-sm font-body font-medium text-foreground">{value}</div>
+                                        )}
                                         <div className="text-xs text-muted-foreground font-body">{description}</div>
                                     </div>
                                 </div>

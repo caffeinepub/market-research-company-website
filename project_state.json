@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
-  "summary": "Market research company website for 'Insight Research and Communications' (Bangalore, India) featuring customer satisfaction surveys, brand positioning, competitor analysis, product testing, market segmentation, advertising tracking, and various research methodologies (qualitative and quantitative). Contact details: phone +91 9353172674, location Bangalore, India 560001.",
+  "projectStateVersion": 7,
+  "summary": "Market research company website for 'Insight Research and Communications' (Bangalore, India) featuring customer satisfaction surveys, brand positioning, competitor analysis, product testing, market segmentation, advertising tracking, and various research methodologies (qualitative and quantitative). Contact details: phone +91 9353172674, email insightresearchblr@gmail.com, location Bangalore, India 560001.",
   "architectural_notes": [],
   "known_issues": [],
   "isFixRequest": false,
@@ -67,6 +67,14 @@
       "title": "Update all instances of the company name to 'Insight Research and Communications', phone number to '+91 9353172674', and location/address to 'Bangalore, India 560001' across every page, section, component, and metadata where company information appears — including the Navigation, Footer, Hero, Contact page, and any other components that display company details.",
       "reqIds": [
         "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-company-email-address-to-insightresearchblr-gmail-com-everywhere-it-appears-across-the-site-including-the-contact-page-footer-navigation-if-shown-and-any-other-component-or-metadata-that-displays-contact-details-note-the-user-typed-gmal-com-but-the-correct-domain-is-gmail-com-as-already-recorded-in-the-project-state",
+      "title": "Update the company email address to 'insightresearchblr@gmail.com' everywhere it appears across the site — including the Contact page, Footer, Navigation (if shown), and any other component or metadata that displays contact details. Note: the user typed 'gmal.com' but the correct domain is 'gmail.com' as already recorded in the project state.",
+      "reqIds": [
+        "REQ-9"
       ],
       "version": 1
     }
@@ -135,6 +143,12 @@
     {
       "id": "AR-11",
       "summary": "Update company name to 'Insight Research and Communications', phone number to +91 9353172674, and location to Bangalore, India 560001 across the site",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Update company email to insightresearchblr@gmail.com across all pages and sections",
       "reqIds": [],
       "status": "pending"
     }

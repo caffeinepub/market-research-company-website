@@ -1,39 +1,27 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Update company name, phone number, and location across the site",
+  "title": "Update company email to insightresearchblr@gmail.com across all pages and sections",
   "requirements": [
     {
-      "id": "REQ-8",
-      "summary": "Update all instances of the company name to 'Insight Research and Communications', phone number to '+91 9353172674', and location/address to 'Bangalore, India 560001' across every page, section, component, and metadata where company information appears",
+      "id": "REQ-9",
+      "summary": "Update the company email address to 'insightresearchblr@gmail.com' everywhere it appears across the site, including the Contact page, Footer, Navigation (if shown), and any other component or metadata that displays contact details",
       "acceptanceCriteria": [
-        "The company name 'Insight Research and Communications' appears in the Navigation/header logo or brand text.",
-        "The company name 'Insight Research and Communications' appears in the Footer.",
-        "The phone number '+91 9353172674' is displayed on the Contact page and in the Footer.",
-        "The address 'Bangalore, India 560001' is displayed on the Contact page and in the Footer.",
-        "No outdated placeholder company name (e.g., 'InsightPro') remains anywhere on the site.",
-        "All other content and styling remain unchanged."
+        "The email 'insightresearchblr@gmail.com' appears in the Footer component wherever contact details are shown.",
+        "The email 'insightresearchblr@gmail.com' appears on the Contact page in the contact info block.",
+        "No outdated or placeholder email address remains anywhere on the site.",
+        "The mailto link (if present) correctly points to insightresearchblr@gmail.com."
       ],
       "file_operations": [
         {
-          "path": "frontend/src/components/Navigation.tsx",
-          "operation": "modify",
-          "description": "Replace the company brand name in the navigation header with 'Insight Research and Communications'. Update any logo text or brand display to show the new company name."
-        },
-        {
           "path": "frontend/src/components/Footer.tsx",
           "operation": "modify",
-          "description": "Replace the company name (currently 'InsightPro') with 'Insight Research and Communications'. Update the phone number to '+91 9353172674' and the address/location to 'Bangalore, India 560001' in the contact information section of the footer."
+          "description": "Update the email address displayed in the Footer contact details section to 'insightresearchblr@gmail.com'. Ensure any mailto links are also updated to use this correct email address."
         },
         {
           "path": "frontend/src/pages/Contact.tsx",
           "operation": "modify",
-          "description": "Update the company contact information section to display phone number '+91 9353172674' and address 'Bangalore, India 560001'. Ensure the company name 'Insight Research and Communications' is referenced if displayed on this page."
-        },
-        {
-          "path": "frontend/index.html",
-          "operation": "modify",
-          "description": "Update the <title> tag and any meta tags that reference the company name to 'Insight Research and Communications' to ensure proper metadata and browser tab title."
+          "description": "Update the email address displayed in the company contact info block on the Contact page to 'insightresearchblr@gmail.com'. Verify that any mailto links or email display elements use the correct domain (gmail.com, not gmal.com)."
         }
       ]
     }

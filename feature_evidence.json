@@ -2,12 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-update-all-instances-of-the-company-name-to-insight-research-and-communications-phone-number-to-91-9353172674-and-location-address-to-bangalore-india-560001-across-every-page-section-component-and-metadata-where-company-information-appears-including-the-navigation-footer-hero-contact-page-and-any-other-components-that-display-company-details",
-      "featureTitle": "Update all instances of the company name to 'Insight Research and Communications', phone number to '+91 9353172674', and location/address to 'Bangalore, India 560001' across every page, section, component, and metadata where company information appears — including the Navigation, Footer, Hero, Contact page, and any other components that display company details.",
+      "featureId": "feature-update-the-company-email-address-to-insightresearchblr-gmail-com-everywhere-it-appears-across-the-site-including-the-contact-page-footer-navigation-if-shown-and-any-other-component-or-metadata-that-displays-contact-details-note-the-user-typed-gmal-com-but-the-correct-domain-is-gmail-com-as-already-recorded-in-the-project-state",
+      "featureTitle": "Update the company email address to 'insightresearchblr@gmail.com' everywhere it appears across the site — including the Contact page, Footer, Navigation (if shown), and any other component or metadata that displays contact details. Note: the user typed 'gmal.com' but the correct domain is 'gmail.com' as already recorded in the project state.",
       "files": [
-        "frontend/index.html",
         "frontend/src/components/Footer.tsx",
-        "frontend/src/components/Navigation.tsx",
         "frontend/src/pages/Contact.tsx"
       ],
       "components": [
@@ -18,7 +16,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-8"
+        "REQ-9"
       ],
       "confidence": "high"
     }

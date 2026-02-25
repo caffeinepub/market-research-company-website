@@ -1,11 +1,12 @@
 # Specification
 
 ## Summary
-**Goal:** Update the company name, phone number, and location across all pages and components of the site.
+**Goal:** Update the company email address to `insightresearchblr@gmail.com` across all pages and components on the site.
 
 **Planned changes:**
-- Replace all instances of the old company name with "Insight Research and Communications" in Navigation, Footer, Hero, Contact page, and metadata
-- Update the phone number to "+91 9353172674" in the Footer and Contact page
-- Update the address to "Bangalore, India 560001" in the Footer and Contact page
+- Replace any existing or placeholder email address with `insightresearchblr@gmail.com` in the Footer component
+- Replace any existing or placeholder email address with `insightresearchblr@gmail.com` on the Contact page
+- Update any `mailto:` links to point to `insightresearchblr@gmail.com`
+- Ensure no outdated or placeholder email remains anywhere on the site
 
-**User-visible outcome:** Every page on the site consistently displays the correct company name, phone number, and location with no outdated placeholder information remaining.
+**User-visible outcome:** The correct company email `insightresearchblr@gmail.com` is displayed and linked consistently across the Footer, Contact page, and any other section showing contact details.

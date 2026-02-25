@@ -1,16 +1,14 @@
 {
   "kind": "spec_vs_diff_report",
   "version": "1.0",
-  "generatedAt": "2026-02-25T10:31:44.422Z",
-  "summary": "The diff implements all required changes for REQ-8: updating the company name to 'Insight Research and Communications', phone number to '+91 9353172674', and location to 'Bangalore, India 560001' across Navigation, Footer, Contact page, and HTML metadata. No outdated placeholder names like 'InsightPro' appear in the modified files.",
+  "generatedAt": "2026-02-25T10:43:12.245Z",
+  "summary": "The diff updates the company email to 'insightresearchblr@gmail.com' in both the Footer component and the Contact page, including correct mailto links. The project_state.json and frontend-file-summaries.txt are also updated to reflect the new email. All acceptance criteria for REQ-9 appear to be met.",
   "missing_requirements": [],
   "hallucinated_features": [],
-  "confidence": 0.95,
+  "confidence": 0.97,
   "changed_files": [
     "frontend-file-summaries.txt",
-    "frontend/index.html",
     "frontend/src/components/Footer.tsx",
-    "frontend/src/components/Navigation.tsx",
     "frontend/src/pages/Contact.tsx",
     "project_state.json"
   ]
