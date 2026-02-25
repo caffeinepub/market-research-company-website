@@ -1,0 +1,42 @@
+{
+  "kind": "build_request",
+  "title": "Update company name, phone number, and location across the site",
+  "projectName": "Insight Research and Communications",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Update all instances of the company name to 'Insight Research and Communications', phone number to '+91 9353172674', and location/address to 'Bangalore, India 560001' across every page, section, component, and metadata where company information appears — including the Navigation, Footer, Hero, Contact page, and any other components that display company details.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "company name is Insight research and Communications phone number india 9353172674 and location bangalore india 560001"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The company name 'Insight Research and Communications' appears in the Navigation/header logo or brand text.",
+        "The company name 'Insight Research and Communications' appears in the Footer.",
+        "The phone number '+91 9353172674' is displayed on the Contact page and in the Footer.",
+        "The address 'Bangalore, India 560001' is displayed on the Contact page and in the Footer.",
+        "No outdated placeholder company name (e.g., 'InsightPro') remains anywhere on the site.",
+        "All other content and styling remain unchanged."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change any backend logic or data schema.",
+    "Do not alter the visual theme, layout, or any content unrelated to company name, phone number, and location."
+  ],
+  "nonGoals": [
+    "Adding new pages or sections.",
+    "Changing any service, research, or methodology content.",
+    "Updating the contact form submission logic."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

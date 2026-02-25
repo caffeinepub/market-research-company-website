@@ -1,0 +1,23 @@
+{
+  "frontend/src/index.css": "Global styles with dark navy and warm gold OKLCH color system, custom utility classes for geometric patterns, gold gradients, card hover effects, and section dividers. Imports Playfair Display and Inter fonts.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with Playfair Display/Inter font families, custom navy and gold color palettes using OKLCH values, additional border radii, gold box shadows, and fade-in animations.",
+  "frontend/src/hooks/useQueries.ts": "React Query mutation hook for submitting contact form data to the backend via the submitContactForm actor method.",
+  "frontend/src/App.tsx": "Main app with TanStack Router setup, defining routes for home, services, service detail, research methodologies, research types, market analysis, and contact pages, all wrapped in the Layout component.",
+  "frontend/src/components/Layout.tsx": "Shell layout component wrapping all pages with Navigation header and Footer, using dark navy background.",
+  "frontend/src/components/Navigation.tsx": "Sticky top navigation bar with updated brand name \"Insight Research & Communications\" (displayed as \"InsightRC\" with subtitle), desktop nav links, mobile hamburger menu, and a gold CTA button.",
+  "frontend/src/components/Footer.tsx": "Full footer with updated brand name \"Insight Research and Communications\", updated phone number \"+91 9353172674\", updated location \"Bangalore, India 560001\", organized link columns, copyright, and caffeine.ai attribution.",
+  "frontend/src/components/Hero.tsx": "Full-viewport hero section with background image, geometric overlay, animated headline with gold gradient text, dual CTAs, and key stats.",
+  "frontend/src/components/ServiceCard.tsx": "Reusable card component for displaying a service with icon, title, description, tags, and hover animation that links to the service detail page.",
+  "frontend/src/components/MethodologyCard.tsx": "Card component for displaying qualitative or quantitative research methodology with sub-methods list and visual differentiation.",
+  "frontend/src/components/ResearchTypeCard.tsx": "Card component for displaying a research type with numbered label, icon, description, and key bullet points.",
+  "frontend/src/components/AnalysisSection.tsx": "Two-column section component for market analysis topics with text content, item list, and a visual panel with geometric dot pattern.",
+  "frontend/src/components/ContactForm.tsx": "Validated contact form with name, email, company, and message fields, backend submission via mutation hook, inline error display, and success confirmation state.",
+  "frontend/src/pages/Home.tsx": "Landing page composing Hero, services grid preview, methodology comparison section, data visualization panel, and a \"why choose us\" checklist with CTA.",
+  "frontend/src/pages/Services.tsx": "Services overview page with page header and a 3-column grid of all six ServiceCard components.",
+  "frontend/src/pages/ServiceDetail.tsx": "Dynamic service detail page using route params to display full service content including overview, step-by-step process, benefits sidebar, deliverables, and a proposal CTA.",
+  "frontend/src/pages/ResearchMethodologies.tsx": "Page explaining qualitative and quantitative research methodologies with two MethodologyCard components and a mixed-methods section.",
+  "frontend/src/pages/ResearchTypes.tsx": "Page displaying all six research types (Primary, Secondary, Qualitative, Quantitative, Descriptive, Exploratory) in a responsive grid with a consultant CTA.",
+  "frontend/src/pages/MarketAnalysis.tsx": "Market and customer analysis page with capabilities bar, three AnalysisSection components for trends/customers/competition, and a proposal CTA.",
+  "frontend/src/pages/Contact.tsx": "Contact page with updated contact info cards showing phone \"+91 9353172674\" and address \"Bangalore, India 560001\", process steps, and the ContactForm component in a two-column layout.",
+  "frontend/index.html": "HTML entry point with updated page title and meta description referencing \"Insight Research and Communications\"."
+}

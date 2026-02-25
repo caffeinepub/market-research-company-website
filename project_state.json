@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Market research company website for 'Insight Research and Communications' (Bangalore, India) featuring customer satisfaction surveys, brand positioning, competitor analysis, product testing, market segmentation, advertising tracking, and various research methodologies (qualitative and quantitative). Contact details: phone +91 9353172674, location Bangalore, India 560001.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-professional-homepage-with-a-hero-section-introducing-the-market-research-company-a-brief-overview-of-core-service-offerings-a-call-to-action-button-and-navigation-links-to-all-major-sections",
+      "title": "Create a professional homepage with a hero section introducing the market research company, a brief overview of core service offerings, a call-to-action button, and navigation links to all major sections.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-with-individual-cards-or-sub-pages-for-customer-satisfaction-surveys-brand-positioning-competitor-analysis-product-testing-market-segmentation-and-advertising-tracking-each-card-should-include-a-title-short-description-and-a-learn-more-link",
+      "title": "Create a Services section with individual cards or sub-pages for: Customer Satisfaction Surveys, Brand Positioning, Competitor Analysis, Product Testing, Market Segmentation, and Advertising Tracking. Each card should include a title, short description, and a learn-more link.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-research-methodologies-section-that-explains-qualitative-research-focus-groups-interviews-and-quantitative-research-surveys-data-analytics-with-clear-descriptions-and-visual-differentiation-between-the-two-types",
+      "title": "Create a Research Methodologies section that explains Qualitative Research (focus groups, interviews) and Quantitative Research (surveys, data analytics) with clear descriptions and visual differentiation between the two types.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-research-types-overview-section-covering-all-six-research-categories-primary-research-secondary-research-qualitative-research-quantitative-research-descriptive-research-and-exploratory-research-each-type-should-have-a-title-and-a-concise-explanation",
+      "title": "Create a Research Types overview section covering all six research categories: Primary Research, Secondary Research, Qualitative Research, Quantitative Research, Descriptive Research, and Exploratory Research. Each type should have a title and a concise explanation.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-market-and-customer-analysis-page-or-section-that-describes-the-company-s-approach-to-analyzing-market-trends-customer-behavior-and-competitive-landscapes-with-supporting-icons-or-illustrations",
+      "title": "Create a Market and Customer Analysis page or section that describes the company's approach to analyzing market trends, customer behavior, and competitive landscapes, with supporting icons or illustrations.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-store-and-retrieve-basic-contact-form-submissions-name-email-company-inquiry-message-in-the-backend-with-a-contact-us-section-on-the-frontend-that-submits-the-form-and-displays-a-success-confirmation-message",
+      "title": "Store and retrieve basic contact form submissions (name, email, company, inquiry message) in the backend, with a Contact Us section on the frontend that submits the form and displays a success confirmation message.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-professional-visual-theme-using-a-dark-navy-and-warm-gold-color-palette-with-clean-sans-serif-typography-data-inspired-geometric-accents-and-a-structured-grid-layout-that-conveys-analytical-authority-and-corporate-credibility-apply-this-theme-consistently-across-all-pages-and-sections",
+      "title": "Apply a cohesive, professional visual theme using a dark navy and warm gold color palette with clean sans-serif typography, data-inspired geometric accents, and a structured grid layout that conveys analytical authority and corporate credibility. Apply this theme consistently across all pages and sections.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-instances-of-the-company-name-to-insight-research-and-communications-phone-number-to-91-9353172674-and-location-address-to-bangalore-india-560001-across-every-page-section-component-and-metadata-where-company-information-appears-including-the-navigation-footer-hero-contact-page-and-any-other-components-that-display-company-details",
+      "title": "Update all instances of the company name to 'Insight Research and Communications', phone number to '+91 9353172674', and location/address to 'Bangalore, India 560001' across every page, section, component, and metadata where company information appears — including the Navigation, Footer, Hero, Contact page, and any other components that display company details.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Customer satisfaction surveys section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Brand positioning services page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Competitor analysis services page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Product testing services page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Market segmentation services page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Advertising tracking services page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Qualitative research section (focus groups, interviews)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Quantitative research section (surveys, data analytics)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Research methodologies overview (Primary, Secondary, Qualitative, Quantitative, Descriptive, Exploratory)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Market and Customer Analysis page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Update company name to 'Insight Research and Communications', phone number to +91 9353172674, and location to Bangalore, India 560001 across the site",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Market Research Company Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
